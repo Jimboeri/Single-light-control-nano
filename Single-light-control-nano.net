@@ -1,0 +1,115 @@
+[
+DC_Jack
+DC_IN
+DC_JACK_PJ102AH
+
+
+
+]
+[
+To Pot
+SIP4
+4x1_HDR
+
+
+
+]
+[
+MOSFET
+TO220
+N_MOSFET_ENH
+
+
+
+]
+[
+To LED
+SIP2
+JUMPER
+
+
+
+]
+[
+To Sensors
+SIP4
+4x1_HDR
+
+
+
+]
+[
+10K
+AX2_1N
+R
+
+
+
+]
+[
+ARduino Nano
+ARDUINO-NANO
+Arduino Nano
+
+
+
+]
+[
+VOLTREG
+TO220
+LM7805
+
+
+
+]
+(
+N000000
+MOSFET-2
+To LED-2
+)
+(
+N000001
+MOSFET-1
+ARduino Nano-12
+)
+(
+N000002
+DC_Jack-1
+ARduino Nano-30
+To LED-1
+VOLTREG-1
+)
+(
+N000003
+ARduino Nano-11
+To Sensors-4
+)
+(
+N000004
+ARduino Nano-19
+10K-2
+To Sensors-1
+)
+(
+N000005
+ARduino Nano-23
+To Pot-1
+)
+(
+N000006
+VOLTREG-2
+To Sensors-2
+MOSFET-3
+10K-1
+ARduino Nano-29
+DC_Jack-2
+To Pot-3
+)
+(
+N000007
+VOLTREG-3
+ARduino Nano-27
+To Sensors-3
+ARduino Nano-18
+To Pot-4
+)
